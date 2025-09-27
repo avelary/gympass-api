@@ -12,7 +12,7 @@ jobs:
       ports:
         - 5432:5432
       container_name: postgres
-      environment:
+      envgit :
         - POSTGRESQL_USER=postgres
         - POSTGRESQL_PASSWORD=postgres
         - POSTGRESQL_DATABASE=gympass
