@@ -16,7 +16,6 @@ jobs:
         POSTGRESQL_USER: postgres
         POSTGRESQL_PASSWORD: postgres
         POSTGRESQL_DATABASE: gympass
-
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
